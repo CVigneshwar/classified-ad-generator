@@ -2,8 +2,8 @@
 
 A simple web app to quickly create newspaper-style classified ads with real-time preview and export.
 
-🔗 Live Demo: https://vercel.com/cvigneshwars-projects/classified-ad-generator
-
+🔗 Live Demo: [https://vercel.com/cvigneshwars-projects/classified-ad-generator
+](https://classified-ad-generator.vercel.app/)
 ---
 
 ## 🧠 Why I built this

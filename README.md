@@ -1,27 +1,77 @@
-# ClassifiedAdGenerator
+# Classified Ad Generator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.21.
+A simple web app to quickly create newspaper-style classified ads with real-time preview and export.
 
-## Development server
+🔗 Live Demo: https://vercel.com/cvigneshwars-projects/classified-ad-generator
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## 🧠 Why I built this
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This project was built to **scratch a personal itch**.
 
-## Build
+My family runs a **local newspaper business**, where classified ads are created frequently for print. The existing process was manual — formatting text, adjusting layouts, and ensuring consistency across ads took unnecessary time.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+I built this tool to:
+- speed up ad creation  
+- standardize layouts  
+- reduce repetitive manual effort  
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## ✨ What it does
 
-## Running end-to-end tests
+- Generate classified ads using predefined templates  
+- Real-time preview while typing  
+- Configurable ad dimensions (in cm) for print use  
+- Quick templates   
+- Export ads as PNG for easy sharing/printing  
+- Lightweight and fast (no backend)  
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
+## 🛠 Tech Stack
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- Angular  
+- TypeScript  
+- SCSS  
+- html-to-image (for PNG export)  
+- Deployed on Vercel  
+
+---
+
+## 🧩 Key Design Decisions
+
+- **Frontend-only architecture**  
+  Kept intentionally simple — no backend, no persistence layer  
+
+- **Real-time preview**  
+  Designed for instant feedback while typing, similar to a design tool  
+
+- **Configurable dimensions (cm)**  
+  Tailored for print use cases rather than just digital layouts  
+
+- **Template-driven rendering**  
+  Each ad type is modular and extensible  
+
+---
+
+## 🚀 Scope & Intent
+
+This project is a **focused utility**, not an actively maintained product.
+
+It was built:
+- as a quick solution for a real need  
+- to explore UI-driven workflows  
+- to keep the implementation intentionally simple and practical  
+
+---
+
+## 🔮 Possible Improvements
+
+- Save/load ad drafts  
+- More template variations  
+- PDF export  
+- Image/logo support  
+- Backend for multi-user usage  
+ 
